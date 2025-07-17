@@ -1,6 +1,8 @@
 # Library_Management_System
 A basic library management system made using Python and MySQL.
 
+This project is using the standard Python implementation (CPython).
+
 It is supposed to be used by the library management staff.
 
 This library management system uses 2 tables in MySQL to work, namely 'books' and 'issue'.
@@ -32,3 +34,9 @@ Schema of 'issue':-
     Bcode: Its type is varchar(10). It is a foreign key and is associated to the 'Bcode' column in table 'books'.
 
     Issue_date: Its type is date.
+
+Replace 'your_MySQL_password' with you MySQL password and 'your_database_name' with your database name in the third line of the program.
+
+Please install 'mysql-connector-python' before running this program.
+
+This program assumes that the database is present on the localhost in the account of the root user. If that is not the case, then please make the relevant changes.
